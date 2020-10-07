@@ -1,0 +1,19 @@
+{
+  "name": "cisco-packet-tracer-pka-password-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Théo BARRAGUÉ",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.23",
+    "yargs": "^16.0.3"
+  },
+  "bin": {
+    "pka-password-extractor": "./index.js"
+  }
+}
